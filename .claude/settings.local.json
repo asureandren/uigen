@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(node \"C:\\\\Users\\\\ANUSHS~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-AnushSureandren-Documents-Epam-Learning-uigen\\\\09f6ff6b-9a15-4b01-9e40-de3fd1a39535\\\\scratchpad\\\\verify.js\" --require playwright)",
+      "Bash(npm root *)",
+      "Bash(NODE_PATH=$\\(npm root -g\\) node \"C:\\\\Users\\\\ANUSHS~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-AnushSureandren-Documents-Epam-Learning-uigen\\\\09f6ff6b-9a15-4b01-9e40-de3fd1a39535\\\\scratchpad\\\\verify.js\")",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node verify.js)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
