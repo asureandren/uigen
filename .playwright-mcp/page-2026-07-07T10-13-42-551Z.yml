@@ -1,0 +1,28 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e3]:
+    - generic [ref=f10e5]:
+      - heading "React Component Generator" [level=1] [ref=f10e7]
+      - generic [ref=f10e9]:
+        - generic [ref=f10e11]:
+          - img [ref=f10e13]
+          - paragraph [ref=f10e16]: Start a conversation to generate React components
+          - paragraph [ref=f10e17]: I can help you create buttons, forms, cards, and more
+        - generic [ref=f10e20]:
+          - textbox "Describe the React component you want to create..." [ref=f10e21]
+          - button [disabled] [ref=f10e22]:
+            - img [ref=f10e23]
+    - separator [ref=f10e26]
+    - generic [ref=f10e28]:
+      - generic [ref=f10e29]:
+        - tablist [ref=f10e31]:
+          - tab "Preview" [selected] [ref=f10e32]
+          - tab "Code" [ref=f10e33]
+        - generic [ref=f10e34]:
+          - button "Sign In" [ref=f10e35]
+          - button "Sign Up" [ref=f10e36]
+      - generic [ref=f10e40]:
+        - img [ref=f10e42]
+        - heading "Welcome to UI Generator" [level=3] [ref=f10e44]
+        - paragraph [ref=f10e45]: Start building React components with AI assistance
+        - paragraph [ref=f10e46]: Ask the AI to create your first component to see it live here
+  - alert [ref=f10e47]

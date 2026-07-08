@@ -1,0 +1,130 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e3]:
+    - generic [ref=f10e5]:
+      - heading "React Component Generator" [level=1] [ref=f10e7]
+      - generic [ref=f10e9]:
+        - generic [ref=f10e53]:
+          - generic [ref=f10e54]:
+            - generic [ref=f10e57]: Create a simple notification/toast component that shows a success message with a dismiss button.
+            - img [ref=f10e60]
+          - generic [ref=f10e81]:
+            - img [ref=f10e84]
+            - generic [ref=f10e89]:
+              - generic [ref=f10e92]: Creating App.jsx
+              - separator [ref=f10e93]
+              - generic [ref=f10e96]: Creating Toast.jsx
+              - separator [ref=f10e97]
+              - generic [ref=f10e98]:
+                - paragraph [ref=f10e99]: "Done. The Toast component features:"
+                - list [ref=f10e100]:
+                  - listitem [ref=f10e101]: Success message with checkmark icon
+                  - listitem [ref=f10e102]: Dismiss button (X icon)
+                  - listitem [ref=f10e103]:
+                    - text: Auto-dismisses after 5 seconds (configurable via
+                    - code [ref=f10e110]: autoClose
+                    - text: prop)
+                  - listitem [ref=f10e105]: Slide-in animation from bottom-right
+                  - listitem [ref=f10e106]: Emerald color scheme with left accent border
+                  - listitem [ref=f10e107]: Fixed positioning in bottom-right corner
+        - generic [ref=f10e20]:
+          - textbox "Describe the React component you want to create..." [ref=f10e21]
+          - button [disabled] [ref=f10e22]:
+            - img [ref=f10e23]
+    - separator [ref=f10e26]
+    - generic [ref=f10e28]:
+      - generic [ref=f10e29]:
+        - tablist [ref=f10e31]:
+          - tab "Preview" [ref=f10e32]
+          - tab "Code" [active] [selected] [ref=f10e33]
+        - generic [ref=f10e34]:
+          - button "Sign In" [ref=f10e35]
+          - button "Sign Up" [ref=f10e36]
+      - generic [ref=f10e111]:
+        - generic [ref=f10e117]:
+          - generic [ref=f10e118]:
+            - generic [ref=f10e119] [cursor=pointer]:
+              - img [ref=f10e120]
+              - img [ref=f10e122]
+              - generic [ref=f10e124]: components
+            - generic [ref=f10e127] [cursor=pointer]:
+              - img [ref=f10e128]
+              - generic [ref=f10e133]: Toast.jsx
+          - generic [ref=f10e135] [cursor=pointer]:
+            - img [ref=f10e136]
+            - generic [ref=f10e141]: App.jsx
+        - separator [ref=f10e142]
+        - code [ref=f10e147]:
+          - generic [ref=f10e148]:
+            - generic [ref=f10e150]:
+              - generic [ref=f10e153]: "1"
+              - generic [ref=f10e155]: "2"
+              - generic [ref=f10e157]: "3"
+              - generic [ref=f10e158]:
+                - generic [ref=f10e159] [cursor=pointer]: 
+                - generic [ref=f10e160]: "4"
+              - generic [ref=f10e162]: "5"
+              - generic [ref=f10e164]: "6"
+              - generic [ref=f10e165]:
+                - generic [ref=f10e166] [cursor=pointer]: 
+                - generic [ref=f10e167]: "7"
+              - generic [ref=f10e168]:
+                - generic [ref=f10e169] [cursor=pointer]: 
+                - generic [ref=f10e170]: "8"
+              - generic [ref=f10e173]:
+                - generic [ref=f10e174] [cursor=pointer]: 
+                - generic [ref=f10e175]: "9"
+              - generic [ref=f10e176]:
+                - generic [ref=f10e177] [cursor=pointer]: 
+                - generic [ref=f10e178]: "10"
+              - generic [ref=f10e180]: "11"
+              - generic [ref=f10e182]: "12"
+              - generic [ref=f10e186]:
+                - generic [ref=f10e187] [cursor=pointer]: 
+                - generic [ref=f10e188]: "13"
+              - generic [ref=f10e190]: "14"
+              - generic [ref=f10e192]: "15"
+              - generic [ref=f10e194]: "16"
+              - generic [ref=f10e195]:
+                - generic [ref=f10e196] [cursor=pointer]: 
+                - generic [ref=f10e197]: "17"
+              - generic [ref=f10e198]:
+                - generic [ref=f10e199] [cursor=pointer]: 
+                - generic [ref=f10e200]: "18"
+              - generic [ref=f10e202]: "19"
+              - generic [ref=f10e204]: "20"
+              - generic [ref=f10e206]: "21"
+              - generic [ref=f10e208]: "22"
+              - generic [ref=f10e210]: "23"
+              - generic [ref=f10e212]: "24"
+            - generic [ref=f10e337]:
+              - generic [ref=f10e339]: "import { useState } from 'react';"
+              - generic [ref=f10e341]: import Toast from '@/components/Toast';
+              - generic [ref=f10e344]: "export default function App() {"
+              - generic [ref=f10e346]: const [isVisible, setIsVisible] = useState(false);
+              - generic [ref=f10e349]: return (
+              - generic [ref=f10e351]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=f10e353]: from-slate-900 via-slate-800 to-slate-900 flex items-center
+              - generic [ref=f10e355]: justify-center p-4">
+              - generic [ref=f10e357]: <div className="flex flex-col gap-6">
+              - generic [ref=f10e359]: <button
+              - generic [ref=f10e361]: "onClick={() => setIsVisible(true)}"
+              - generic [ref=f10e363]: className="px-6 py-3 bg-emerald-500
+              - generic [ref=f10e365]: hover:bg-emerald-600 text-white font-semibold
+              - generic [ref=f10e367]: rounded-lg transition-colors duration-200 shadow-lg
+              - generic [ref=f10e369]: hover:shadow-xl"
+              - generic [ref=f10e371]: ">"
+              - generic [ref=f10e373]: Show Toast
+              - generic [ref=f10e375]: </button>
+              - generic [ref=f10e378]: "{isVisible && ("
+              - generic [ref=f10e380]: <Toast
+              - generic [ref=f10e382]: message="Success! Your changes have been saved."
+              - generic [ref=f10e384]: "onDismiss={() => setIsVisible(false)}"
+              - generic [ref=f10e386]: />
+              - generic [ref=f10e388]: ")}"
+              - generic [ref=f10e390]: </div>
+              - generic [ref=f10e392]: </div>
+            - textbox "Editor content" [ref=f10e394]
+  - alert [ref=f10e47]
+  - generic [ref=f10e395]:
+    - alert
+    - alert

@@ -1,0 +1,50 @@
+- generic [ref=f10e1]:
+  - generic [ref=f10e3]:
+    - generic [ref=f10e5]:
+      - heading "React Component Generator" [level=1] [ref=f10e7]
+      - generic [ref=f10e9]:
+        - generic [ref=f10e53]:
+          - generic [ref=f10e54]:
+            - generic [ref=f10e57]: Create a simple notification/toast component that shows a success message with a dismiss button.
+            - img [ref=f10e60]
+          - generic [ref=f10e81]:
+            - img [ref=f10e84]
+            - generic [ref=f10e89]:
+              - generic [ref=f10e92]: Creating App.jsx
+              - separator [ref=f10e93]
+              - generic [ref=f10e96]: Creating Toast.jsx
+              - separator [ref=f10e97]
+              - generic [ref=f10e98]:
+                - paragraph [ref=f10e99]: "Done. The Toast component features:"
+                - list [ref=f10e100]:
+                  - listitem [ref=f10e101]: Success message with checkmark icon
+                  - listitem [ref=f10e102]: Dismiss button (X icon)
+                  - listitem [ref=f10e103]:
+                    - text: Auto-dismisses after 5 seconds (configurable via
+                    - code [ref=f10e104]: autoClose
+                    - text: prop)
+                  - listitem [ref=f10e105]: Slide-in animation from bottom-right
+                  - listitem [ref=f10e106]: Emerald color scheme with left accent border
+                  - listitem [ref=f10e107]: Fixed positioning in bottom-right corner
+        - generic [ref=f10e20]:
+          - textbox "Describe the React component you want to create..." [ref=f10e21]
+          - button [disabled] [ref=f10e22]:
+            - img [ref=f10e23]
+    - separator [ref=f10e26]
+    - generic [ref=f10e28]:
+      - generic [ref=f10e29]:
+        - tablist [ref=f10e31]:
+          - tab "Preview" [selected] [ref=f10e32]
+          - tab "Code" [ref=f10e33]
+        - generic [ref=f10e34]:
+          - button "Sign In" [ref=f10e35]
+          - button "Sign Up" [ref=f10e36]
+      - iframe [active] [ref=f10e80]:
+        - generic [ref=f12e4]:
+          - button "Show Toast" [active] [ref=f12e5] [cursor=pointer]
+          - generic [ref=f12e7]:
+            - img [ref=f12e9]
+            - paragraph [ref=f12e11]: Success! Your changes have been saved.
+            - button "Dismiss notification" [ref=f12e12] [cursor=pointer]:
+              - img [ref=f12e13]
+  - alert [ref=f10e47]

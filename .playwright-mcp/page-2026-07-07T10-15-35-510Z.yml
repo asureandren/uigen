@@ -1,0 +1,58 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - generic [ref=f13e5]:
+      - heading "React Component Generator" [level=1] [ref=f13e7]
+      - generic [ref=f13e9]:
+        - generic [ref=f13e53]:
+          - generic [ref=f13e54]:
+            - generic [ref=f13e57]: Create a login form component with email and password fields, a remember-me checkbox, and a submit button.
+            - img [ref=f13e60]
+          - generic [ref=f13e76]:
+            - img [ref=f13e79]
+            - generic [ref=f13e84]:
+              - generic [ref=f13e87]: Creating App.jsx
+              - separator [ref=f13e88]
+              - generic [ref=f13e89]:
+                - paragraph [ref=f13e90]: "Done. Created a login form with:"
+                - list [ref=f13e91]:
+                  - listitem [ref=f13e92]: Email and password input fields with focus states
+                  - listitem [ref=f13e93]: Remember me checkbox
+                  - listitem [ref=f13e94]: Submit button with loading state
+                  - listitem [ref=f13e95]: Warm orange/amber color palette with sharp corners and a left border accent
+                  - listitem [ref=f13e96]: Footer links for password recovery and account creation
+        - generic [ref=f13e20]:
+          - textbox "Describe the React component you want to create..." [ref=f13e21]
+          - button [disabled] [ref=f13e22]:
+            - img [ref=f13e23]
+    - separator [ref=f13e26]
+    - generic [ref=f13e28]:
+      - generic [ref=f13e29]:
+        - tablist [ref=f13e31]:
+          - tab "Preview" [selected] [ref=f13e32]
+          - tab "Code" [ref=f13e33]
+        - generic [ref=f13e34]:
+          - button "Sign In" [ref=f13e35]
+          - button "Sign Up" [ref=f13e36]
+      - iframe [ref=f13e97]:
+        - generic [ref=f15e5]:
+          - heading "Welcome Back" [level=1] [ref=f15e6]
+          - paragraph [ref=f15e7]: Sign in to your account to continue
+          - generic [ref=f15e8]:
+            - generic [ref=f15e9]:
+              - generic [ref=f15e10]: Email Address
+              - textbox "Email Address" [ref=f15e11]:
+                - /placeholder: you@example.com
+            - generic [ref=f15e12]:
+              - generic [ref=f15e13]: Password
+              - textbox "Password" [ref=f15e14]:
+                - /placeholder: ••••••••
+            - generic [ref=f15e15]:
+              - checkbox "Remember me for 30 days" [ref=f15e16] [cursor=pointer]
+              - generic [ref=f15e17] [cursor=pointer]: Remember me for 30 days
+            - button "Sign In" [ref=f15e18] [cursor=pointer]
+          - generic [ref=f15e19]:
+            - link "Forgot password?" [ref=f15e20] [cursor=pointer]:
+              - /url: "#"
+            - link "Create account" [ref=f15e21] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=f13e47]
